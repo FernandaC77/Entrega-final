@@ -12,6 +12,12 @@ $White: #f4f4ff;
 $Green: #58C6B5;
 $Yellow: #F6D244;
 
+@mixin titulos {
+    letter-spacing: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
 
 .bg-green {
     background-color: $Green;
