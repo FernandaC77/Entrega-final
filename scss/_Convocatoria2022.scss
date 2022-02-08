@@ -1,0 +1,43 @@
+body {
+    .HistoriaBienal {
+        p {
+            width: 60%;
+        }
+        h2 {
+            margin: 1em auto;
+        }
+    }
+    .AhoraBienal {
+        margin-left: 5em;
+        padding-bottom: 5em;
+            p {
+                padding-left: 1em;
+                padding-right: 3em;
+                padding-bottom: 2em;
+            }
+}
+    .ComoPensamosHacemos {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        p {
+            padding-left: 1em;
+            padding-right: 3em;
+            padding-bottom: 2em;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h3 {
+        font-size: 4em;
+    }
+
+    #accordion {
+        font-size: 2em;
+        max-width: 100%;
+
+        h5 .btn-link {
+            font-size: 2em;
+        }
+    }
+}

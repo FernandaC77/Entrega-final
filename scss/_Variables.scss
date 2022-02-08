@@ -1,0 +1,57 @@
+$Red: #ED695F;
+$Oscuro: #2E1284;
+$White: #f4f4ff;
+$Green: #58C6B5;
+$Yellow: #F6D244;
+
+
+.bg-green {
+    background-color: $Green;
+}    
+
+.bg-red {
+    background-color: $Red;
+}
+
+.bg-yellow {
+    background-color: $Yellow;
+}
+
+.bg-violet {
+    background-color: $Oscuro;
+}
+
+.bg-light {
+    background-color: $White;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.cabecera {
+    background-color: black;
+    height: 20em;
+    color:$White;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight:100;
+    padding-top: 15em;
+    margin-bottom: 5em;
+    margin-top: 2em;
+
+    :hover {
+        color: $Yellow;
+    }
+
+    h1 {
+        font-weight: 100;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cabecera {
+        margin-top: 0;
+    }
+}

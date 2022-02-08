@@ -1,0 +1,31 @@
+section {
+    .programaa {
+        margin-top: 5em;
+
+        h2{
+            padding-top: 5em;
+            margin: 10em auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        .programaa {
+            .prog {
+                display: block;
+                font-size: 30px;
+
+                .card .text
+                h5 {
+                    font-size: 3em;
+                }
+    
+                .BotProg {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+}
+

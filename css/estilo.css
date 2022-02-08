@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box; }
+
+.inscribitee h2 {
+  text-align: left; }
+
+.inscribitee p {
+  margin-left: 2em; }
+
+.card-deck {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 5em; }
+
+.card img:hover {
+  opacity: 80%; }
+
+.infoBienal h2 {
+  margin-left: 2em;
+  margin-top: 5em; }
+
+.card-footer a button {
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 100%; }
+
+@media screen and (max-width: 1200px) {
+  .card-deck {
+    display: block;
+    width: 90%;
+    margin-top: 10em; }
+  .card-deck .card-title {
+    font-size: 45px;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .card-deck .card-footer button {
+    font-size: 40px; }
+  .infoBienal p {
+    margin-bottom: 2em; }
+  .infoBienal h2 {
+    margin-top: 7em; }
+  .card {
+    margin-top: 1em; } }
+
+body .HistoriaBienal p {
+  width: 60%; }
+
+body .HistoriaBienal h2 {
+  margin: 1em auto; }
+
+body .AhoraBienal {
+  margin-left: 5em;
+  padding-bottom: 5em; }
+  body .AhoraBienal p {
+    padding-left: 1em;
+    padding-right: 3em;
+    padding-bottom: 2em; }
+
+body .ComoPensamosHacemos {
+  padding-top: 5em;
+  padding-bottom: 5em; }
+  body .ComoPensamosHacemos p {
+    padding-left: 1em;
+    padding-right: 3em;
+    padding-bottom: 2em; }
+
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: 4em; }
+  #accordion {
+    font-size: 2em;
+    max-width: 100%; }
+    #accordion h5 .btn-link {
+      font-size: 2em; } }
+
+section .PortadaInscribite {
+  margin-top: 5em; }
+
+.bg-green {
+  background-color: #58C6B5; }
+
+.bg-red {
+  background-color: #ED695F; }
+
+.bg-yellow {
+  background-color: #F6D244; }
+
+.bg-violet {
+  background-color: #2E1284; }
+
+.bg-light {
+  background-color: #f4f4ff; }
+
+.bg-black {
+  background-color: black; }
+
+.cabecera {
+  background-color: black;
+  height: 20em;
+  color: #f4f4ff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 100;
+  padding-top: 15em;
+  margin-bottom: 5em;
+  margin-top: 2em; }
+  .cabecera :hover {
+    color: #F6D244; }
+  .cabecera h1 {
+    font-weight: 100;
+    margin-left: 1em; }
+
+@media screen and (max-width: 1200px) {
+  .cabecera {
+    margin-top: 0; } }
+
+.bg-green {
+  background-color: #58C6B5; }
+
+.bg-red {
+  background-color: #ED695F; }
+
+.bg-yellow {
+  background-color: #F6D244; }
+
+.bg-violet {
+  background-color: #2E1284; }
+
+.bg-light {
+  background-color: #f4f4ff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box; }
+
+body header {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; }
+  body header a {
+    display: flex;
+    margin-left: 3em; }
+    body header a button {
+      margin-right: 50px;
+      text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 2px;
+      padding-top: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 10px; }
+      body header a button:hover {
+        text-transform: uppercase;
+        font-weight: 300;
+        background-color: #ED695F;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 10px; }
+    body header a img {
+      padding-top: 2em; }
+      body header a img:hover {
+        opacity: 80%; }
+  body header li {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    padding-top: 45px; }
+  body header ul ul {
+    position: absolute;
+    display: none; }
+  body header ul ul li {
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 15px; }
+  body header ul li:hover ul {
+    display: block;
+    font-weight: 500;
+    background-color: white;
+    padding-right: 3em; }
+  body header p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center; }
+
+body .respmenu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 30px 20px;
+  border-bottom: 2px solid #58C6B5;
+  width: 100%;
+  background: black;
+  margin-left: 1.5em; }
+  body .respmenu a:hover {
+    color: #58C6B5; }
+
+body .respmenu ul li {
+  list-style: none; }
+
+body .respmenu input[type="checkbox"], body body .respmenu .fa-bars, body body .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 48px; }
+
+body .respmenu .fa-bars, body body .respmenu .fa-times {
+  font-size: 2em;
+  pointer-events: none;
+  padding-top: 1em; }
+
+body .respmenu input[type="checkbox"] {
+  opacity: 0;
+  margin-top: 8em;
+  margin-right: 2em; }
+
+body .respmenu {
+  color: #f4f4ff;
+  position: relative;
+  background: black;
+  min-height: 5em;
+  padding-top: 3em; }
+  body .respmenu nav {
+    display: none; }
+  body .respmenu input:checked ~ nav {
+    display: block; }
+  body .respmenu input:checked ~ .fa-bars {
+    display: none; }
+  body .respmenu input:not(:checked) ~ .fa-times {
+    display: none; }
+
+body .portada h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-left: 10px; }
+
+body .portada p {
+  text-align: start;
+  width: 35em; }
+
+body .portada .port {
+  margin-top: 10em;
+  margin-left: 3em; }
+
+body h2 {
+  font-weight: 300;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 1em;
+  text-transform: uppercase; }
+
+body a {
+  text-decoration: none;
+  color: #2c2c2c; }
+  body a:hover {
+    color: #ED695F;
+    font-weight: 700px;
+    text-decoration: none; }
+
+body .container-fluid {
+  overflow: hidden;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%; }
+
+body button {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #f4f4ff;
+  background-color: black;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px;
+  display: block; }
+
+body button:hover {
+  font-weight: 100;
+  color: #f4f4ff;
+  background-color: #ED695F;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  letter-spacing: 2px;
+  margin-top: 50px; }
+
+body fieldset {
+  padding: 50px;
+  border: none; }
+  body fieldset label legend {
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+body img {
+  max-width: 100%; }
+
+body h2 {
+  text-align: center; }
+
+body .UltimaEdicion .ult h2 {
+  text-align: center; }
+
+body .programa .titProg {
+  padding-top: 40px; }
+
+body .programa .dias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  list-style: none;
+  padding-top: 30px; }
+  body .programa .dias li {
+    padding-left: 15px; }
+  body .programa .dias img {
+    padding-bottom: 20px; }
+  body .programa .dias img:hover {
+    opacity: 80%; }
+
+body .programa .BotProg {
+  padding: 1em auto; }
+  body .programa .BotProg a button {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px; }
+    body .programa .BotProg a button :hover {
+      text-transform: uppercase;
+      font-weight: 300;
+      background-color: #ED695F;
+      padding-top: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 10px; }
+
+body .programa li:hover {
+  color: black; }
+
+body .UltimaEdicion {
+  background-color: #ED695F; }
+
+body .CatalogosDescargables img:hover {
+  opacity: 80%; }
+
+body .Inscribite {
+  padding-bottom: 5em;
+  padding-top: 5em; }
+  body .Inscribite p {
+    text-align: left; }
+  body .Inscribite a button {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px; }
+  body .Inscribite a button:hover {
+    text-transform: uppercase;
+    font-weight: 100;
+    background-color: #ED695F;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px; }
+
+body .FormularioDeConsulta {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #f4f4ff; }
+
+body .FormularioIMG {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 40px; }
+
+body footer .PieDePagina {
+  background: #F6D244;
+  padding-top: 5em;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3em; }
+  body footer .PieDePagina .mapa ul {
+    justify-content: baseline;
+    align-items: baseline; }
+    body footer .PieDePagina .mapa ul li {
+      padding-left: 3em; }
+  body footer .PieDePagina .Instituciones {
+    margin-top: 2em; }
+    body footer .PieDePagina .Instituciones a {
+      padding-left: 1em; }
+    body footer .PieDePagina .Instituciones a:hover {
+      opacity: 80%; }
+  body footer .PieDePagina .botonarriba {
+    padding-bottom: 2em; }
+
+@media screen and (min-width: 1200px) {
+  .respmenu {
+    display: none !important; } }
+
+@media screen and (max-width: 1200px) {
+  body header {
+    display: none !important; }
+  body p {
+    font-size: 2em;
+    width: 100%; }
+  body h2 {
+    font-size: 3em; }
+  body .dias li {
+    padding-top: 2em;
+    font-size: 2em; }
+  body .BotProg a button {
+    font-size: 40px; }
+  body button {
+    width: 90%;
+    background-color: black;
+    text-align: center;
+    margin: 1em auto;
+    padding: 3em auto; }
+  body .BotProg a button:hover {
+    background-color: #ED695F;
+    font-size: 40px;
+    width: 90%; }
+  body .Inscribite a button {
+    font-size: 40px;
+    margin: 3em auto; }
+    body .Inscribite a button :hover {
+      background-color: #ED695F;
+      font-size: 40px;
+      width: 90%;
+      margin: 3em auto; }
+  body .respmenu {
+    font-size: 2em;
+    padding-bottom: 2em; }
+  body .respmenu input[type="checkbox"], body .respmenu .fa-bars, body .respmenu .fa-times {
+    width: 70%;
+    height: 70%;
+    padding-left: 88%;
+    margin-top: 1em; }
+  body .respmenu .fa-times {
+    padding-left: 88%;
+    margin-top: 3em;
+    font-size: 65px; }
+  body .portada .port p {
+    width: 85%; }
+  body .FormularioDeConsulta form fieldset {
+    font-size: 30px; }
+  body header {
+    display: none; }
+  body .FormularioDeConsulta form input {
+    font-size: 30px; }
+  body .FormularioDeConsulta form fieldset {
+    width: 90%; }
+  body .FormularioDeConsulta .btn {
+    font-size: 35px;
+    margin-top: 2em; }
+  body .CatalogosDescargables ul li img {
+    width: 90%; }
+  body .PieDePagina .mapa {
+    justify-content: center;
+    font-size: 30px; }
+  body .PieDePagina .Instituciones {
+    padding-left: 5em;
+    padding-top: 2em; }
+  body .PieDePagina .botonarriba {
+    font-size: 40px;
+    margin-top: 3em; } }
